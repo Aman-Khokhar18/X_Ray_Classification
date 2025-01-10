@@ -51,7 +51,7 @@ Classification Report:
    macro avg       0.90      0.87      0.88      1473
 weighted avg       0.89      0.85      0.86      1473
 ```
-
+![Confusion Matrix](images/conf_matrix.png)
 ## Usage
 
 1. Clone this repository.
