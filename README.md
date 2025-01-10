@@ -7,24 +7,23 @@ This project focuses on classifying chest X-ray images to detect the presence of
 - The dataset contains over **10,000+ chest X-ray images**.
 - Images were preprocessed using **histogram equalization** to enhance contrast and reduce noise, resulting in clearer samples for the classifier.
 
-- ![Chest X-Ray Example](images/output.png))
+- ![Chest X-Ray Example](images/output.png)
 
 ## Model Architecture
 
-- The model utilizes the **DenseNet-121** architecture, known for its efficient feature reuse and high performance on image classification tasks.
+- The model utilizes the **Efficient-b0** architecture, known for its efficient feature reuse and low training times on image classification tasks.
 
 ## Training Details
 
 ### Hyperparameters
 
 - **Learning Rate**: 1e-5
-- **Weight Decay (L2 Regularization)**: 1e-2
-- **Batch Size**: Appropriate batch size used (adjust according to available resources)
+- **Batch Size**: 32
 
 ### Optimizer and Regularization
 
 - Applied **L2 regularization** to reduce overfitting.
-- **Weight decay** value set to **1e-2**.
+- **Weight decay** value set to **1e-3**.
 
 ### Learning Rate Scheduler
 
@@ -35,6 +34,7 @@ This project focuses on classifying chest X-ray images to detect the presence of
 ### Early Stopping
 
 - Used **early stopping** with a patience of 4 epochs to prevent overfitting.
+- ![Training](images/training.png)
 
 ## Results
 
