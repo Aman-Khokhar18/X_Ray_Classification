@@ -49,6 +49,7 @@ This project focuses on classifying chest X-ray images to detect the presence of
 ## Future Improvements
 
 - Experimenting with additional image preprocessing techniques.
+- Training a seperate image classifier to remove any distorted or noisy images that may affect model performance.
 - Testing alternative model architectures such as ResNet or EfficientNet.
 - Fine-tuning hyperparameters for further performance gains.
 
