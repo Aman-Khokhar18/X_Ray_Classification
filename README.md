@@ -4,7 +4,8 @@ This project focuses on classifying chest X-ray images to detect the presence of
 
 ## Dataset
 
-- The dataset contains over **10,000+ chest X-ray images**.
+- The original dataset is imported from https://www.kaggle.com/datasets/nih-chest-xrays/data?select=FAQ_CHESTXRAY.pdf
+- Dataset was pruned for smaller classification task due to computation limitations.
 - Images were preprocessed using **histogram equalization** to enhance contrast and reduce noise, resulting in clearer samples for the classifier.
 
 - ![Chest X-Ray Example](images/output.png)
