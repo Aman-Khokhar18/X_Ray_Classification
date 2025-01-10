@@ -7,6 +7,8 @@ This project focuses on classifying chest X-ray images to detect the presence of
 - The dataset contains over **10,000+ chest X-ray images**.
 - Images were preprocessed using **histogram equalization** to enhance contrast and reduce noise, resulting in clearer samples for the classifier.
 
+- ![Chest X-Ray Example]([images/chest_xray_sample.png](https://raw.githubusercontent.com/Aman-Khokhar18/X_Ray_Classification/refs/heads/main/images/output.png))
+
 ## Model Architecture
 
 - The model utilizes the **DenseNet-121** architecture, known for its efficient feature reuse and high performance on image classification tasks.
@@ -42,17 +44,7 @@ This project focuses on classifying chest X-ray images to detect the presence of
 
 1. Clone this repository.
 2. Prepare the dataset as per the required structure.
-3. Run the training script (specify the script name if applicable).
-
-```bash
-python train.py
-```
-
-4. Evaluate the model on the test set.
-
-```bash
-python evaluate.py
-```
+3. Run the jupyter notebook provided.
 
 ## Future Improvements
 
@@ -60,11 +52,6 @@ python evaluate.py
 - Testing alternative model architectures such as ResNet or EfficientNet.
 - Fine-tuning hyperparameters for further performance gains.
 
-## License
-
-Specify the license if applicable.
-
----
 
 Feel free to customize and add more sections like Installation, Contributing, or additional notes specific to your project.
 
