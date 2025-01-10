@@ -7,7 +7,7 @@ This project focuses on classifying chest X-ray images to detect the presence of
 - The dataset contains over **10,000+ chest X-ray images**.
 - Images were preprocessed using **histogram equalization** to enhance contrast and reduce noise, resulting in clearer samples for the classifier.
 
-- ![Chest X-Ray Example]([images/chest_xray_sample.png](https://raw.githubusercontent.com/Aman-Khokhar18/X_Ray_Classification/refs/heads/main/images/output.png))
+- ![Chest X-Ray Example]([images/output.png))
 
 ## Model Architecture
 
