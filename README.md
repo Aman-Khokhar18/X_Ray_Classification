@@ -39,6 +39,18 @@ This project focuses on classifying chest X-ray images to detect the presence of
 ## Results
 
 - Include details about the model’s accuracy, F1-score, or other relevant metrics if available.
+- Test Accuracy: 0.8528
+```
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.87      0.83      0.85       765
+           1       0.93      0.91      0.92       708
+
+    accuracy                           0.85      1473
+   macro avg       0.90      0.87      0.88      1473
+weighted avg       0.89      0.85      0.86      1473
+```
 
 ## Usage
 
